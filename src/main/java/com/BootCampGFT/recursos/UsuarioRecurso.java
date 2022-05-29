@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.BootCampGFT.entidade.Usuario;
 
 @RestController  //  diz que é um recurso web que é implementado por um controlado us 
-@RequestMapping(value = "/usuario") //nome do rercuso e o caminho dele
+@RequestMapping(value = "/usuarios") //nome do rercuso e o caminho dele
 public class UsuarioRecurso {
 	
 	@GetMapping // para dizer que este metodo que responde requisição do tipo get 
